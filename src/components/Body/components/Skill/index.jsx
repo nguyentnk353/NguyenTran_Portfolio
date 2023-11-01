@@ -54,7 +54,7 @@ const index = () => {
             <h2 className="text-center font-semibold text-[1.75rem] text-gray-500">
               Frontend Development
             </h2>
-            <div className="hidden lg:block flex justify-around flex-wrap gap-8 p-4">
+            <div className="hidden lg:flex justify-around flex-wrap gap-8 p-4">
               {fe.map((e) => e.map((el) => <div>{tech(el)}</div>))}
             </div>
             <div className="lg:hidden pt-8">
@@ -75,7 +75,7 @@ const index = () => {
             <h2 className="text-center font-semibold text-[1.75rem] text-gray-500">
               Backend Development
             </h2>
-            <div className="hidden lg:block flex justify-around flex-wrap gap-8 p-4">
+            <div className="hidden lg:flex justify-around flex-wrap gap-8 p-4">
               {be.map((e) => e.map((el) => <div>{techbe(el)}</div>))}
             </div>
             <div className="lg:hidden pt-8">
@@ -96,7 +96,7 @@ const index = () => {
             <h2 className="text-center font-semibold text-[1.75rem] text-gray-500">
               Dev tool
             </h2>
-            <div className="hidden lg:block flex justify-around flex-wrap gap-8 p-4">
+            <div className="hidden lg:flex justify-around flex-wrap gap-8 p-4">
               {dev.map((e) => e.map((el) => <div>{tech(el)}</div>))}
             </div>
             <div className="lg:hidden pt-8">
